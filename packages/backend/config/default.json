@@ -1,0 +1,4 @@
+{
+  "name": "Fee Management",
+  "jwtPrivateKey": "kapp_jwtPrivateKey"
+}

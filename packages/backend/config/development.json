@@ -1,0 +1,7 @@
+{
+  "name": "Fee Management",
+  "databaseURL": "mongodb://localhost/",
+  "databaseName": "feemanageload",
+  "jwtPrivateKey": "kapp_jwtPrivateKey",
+  "s3path": "https://s3.amazonaws.com/mybucket"
+}

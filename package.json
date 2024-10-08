@@ -1,0 +1,16 @@
+{
+  "name": "monoanand",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:frontend": "npm run dev --workspace frontend",
+    "start:backend": "npm run dev --workspace backend",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
